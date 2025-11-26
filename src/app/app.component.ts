@@ -13,4 +13,23 @@ import { ProfileComponent } from './profile/profile.component';
 export class AppComponent {
   title = 'angular-tutorial';
   name = 'Angular tutorial with Arif shah';
+  count = 0
+
+  
+
+  handleCounter(value:string)
+  {
+    if(value==='plus') 
+      this.count=this.count+1
+    else if(value==='minus' && this.count>0)
+    
+        this.count=this.count-1
+
+    else
+      this.count=0
+
+  }
+
+
+
 }

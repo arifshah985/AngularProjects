@@ -12,6 +12,16 @@
 <app-login></app-login>
 <app-login></app-login>
 <app-profile></app-profile>
+<div style="text-align: center;">
+  <h1>{{count}}</h1>
+  <button class="btn bg-green" (click)="handleCounter('plus')">Increment</button>
+  <button class="btn bg-black" (click)="handleCounter('reset')">Reset</button>
+  <button class="btn bg-red" (click)="handleCounter('minus')">Decrement</button>
+</div>
+
+
+
+
 <style>
   :host {
     --bright-blue: oklch(51.01% 0.274 263.83);

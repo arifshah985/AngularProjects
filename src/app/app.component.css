@@ -1,0 +1,21 @@
+.btn
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+.bg-green
+{
+    background-color: green;
+}   
+.bg-red
+{
+    background-color: red;
+}
+.bg-black
+{
+    background-color: black;
+}   
